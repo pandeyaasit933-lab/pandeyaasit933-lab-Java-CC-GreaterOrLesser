@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/GreaterOrLesserTest.java",
+      "testCases": [
+        {
+          "methodName": "greaterOrLesserTest1",
+          "label": "Test for equal values",
+          "description": "Verifies that if two input integers are equal, the decide method returns 'Equal'."
+        },
+        {
+          "methodName": "greaterOrLesserTest2",
+          "label": "Test for greater than comparison",
+          "description": "Verifies that if the first integer is greater than the second integer, the decide method returns 'Greater'."
+        },
+        {
+          "methodName": "greaterOrLesserTest3",
+          "label": "Test for lesser than comparison",
+          "description": "Verifies that if the first integer is less than the second integer, the decide method returns 'Lesser'."
+        }
+      ]
+    }
+  ]
+}
